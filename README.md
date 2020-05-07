@@ -23,21 +23,23 @@ The program extract the text content from https://artificialintelligence-news.co
 The background is added to the audio files, the volume of background is automatically adjusted by the algorithm.
 
 For each podcast episode, the following codes get updated in the .xml file.
-<item>
-<guid isPermaLink="false">"""+this_day+"""</guid>
-<title>""" + Title +"""</title>
-<pubDate>"""+PubDate+"""</pubDate>
-<link>"""+Link+"""</link>
-<itunes:duration>"""+Duration+"""</itunes:duration>
-<itunes:author>AI</itunes:author>
-<itunes:explicit>no</itunes:explicit>
-<itunes:summary>"""+Summary+"""</itunes:summary>
-<itunes:subtitle> """+Subtitle+"""</itunes:subtitle>
-<description>"""+Description+"""</description>
-<enclosure type="audio/mpeg" url= "http://167.99.234.149/ai-news/podcast-episodes/""" \
-    +todays_date+"""-v2.mp3" \ length="20609820"/>
-<itunes:image href="http://167.99.234.149/ai-news/ai-news-by-ai.png"/>
-</item>
+
+        <item>
+        <guid isPermaLink="false">"""+this_day+"""</guid>
+        <title>""" + Title +"""</title>
+        <pubDate>"""+PubDate+"""</pubDate>
+        <link>"""+Link+"""</link>
+        <itunes:duration>"""+Duration+"""</itunes:duration>
+        <itunes:author>AI</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:summary>"""+Summary+"""</itunes:summary>
+        <itunes:subtitle> """+Subtitle+"""</itunes:subtitle>
+        <description>"""+Description+"""</description>
+        <enclosure type="audio/mpeg" url= "http://167.99.234.149/ai-news/podcast-episodes/""" \
+            +todays_date+"""-v2.mp3" \ length="20609820"/>
+        <itunes:image href="http://167.99.234.149/ai-news/ai-news-by-ai.png"/>
+        </item>
+
 
 You can find the podcast episodes here: http://167.99.234.149/ai-news/podcast-episodes/
 You can find the .XML here: http://167.99.234.149/ai-news/feed.xml
