@@ -14,8 +14,11 @@ Install the dependencies packages:
     pip install pydub
 
 The background music is Big_Day.mp3
+
 The Google Text-To-Speech API needs credentials to work which should be downloaded in the .json format from Google Cloud.
+
 It only allows <5000 characters to be converted. So the recursive funciton feed_fragmentation slice the larger text.
+
 
 The program extract the text content from https://artificialintelligence-news.com/feed/. The text is first cleaned via cleanText() function
 
