@@ -42,9 +42,13 @@ For each podcast episode, the following codes get updated in the .xml file.
 
 
 You can find the podcast episodes here: http://167.99.234.149/ai-news/podcast-episodes/
+
 You can find the .XML here: http://167.99.234.149/ai-news/feed.xml
+
 The Apple's iTunes channel link is: https://podcasts.apple.com/us/podcast/ai-news-daily/id1491115711
+
 YouTube Video link explaining the project is: https://studio.youtube.com/video/atnHaGyWRpI/
+
 
 
 
